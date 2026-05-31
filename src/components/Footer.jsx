@@ -1,0 +1,65 @@
+import "../css/Footer.css"
+function Footer() {
+  return (
+    <section className="contact py-5">
+      <div className="container py-5">
+        <div className="row">
+          <div className="col-lg-5 m-auto text-center">
+            <h1>Contact Us</h1>
+            <h6 style={{ color: "red" }}>Always Be In Touch With Us</h6>
+          </div>
+        </div>
+
+        <div className="row py-5">
+          <div className="col-lg-9 m-auto">
+            <div className="row">
+              <div className="col-lg-4">
+                <h6>📍 LOCATION</h6>
+                <p>TRIPOLI ABOU SAMRA</p>
+
+                <h6>📱 PHONE</h6>
+                <p>71 919 521</p>
+
+                <h6>📩 EMAIL</h6>
+                <p>52330440@students.liu.edu.lb</p>
+              </div>
+
+              <div className="col-lg-7">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <input
+                      type="text"
+                      className="form-control bg-light"
+                      placeholder="First Name"
+                    />
+                  </div>
+
+                  <div className="col-lg-6">
+                    <input
+                      type="text"
+                      className="form-control bg-light"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-lg-12 py-3">
+                  <textarea
+                    className="form-control bg-light"
+                    placeholder="Enter your Message"
+                    cols="10"
+                    rows="5"
+                  ></textarea>
+                </div>
+
+                <button className="btn1">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Footer;

@@ -1,0 +1,136 @@
+.contact {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.contact h6 {
+  margin-top: 10px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.col-lg-4 {
+  flex: 1;
+  min-width: 280px;
+}
+
+.col-lg-6 {
+  flex: 1;
+  min-width: 220px;
+}
+
+.col-lg-7 {
+  flex: 2;
+  min-width: 400px;
+}
+
+.col-lg-9 {
+  width: 100%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.py-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact h6 {
+  font-weight: 700;
+  margin-top: 25px;
+  color: #222;
+}
+
+.contact p {
+  color: #666;
+  margin-top: 5px;
+}
+
+.form-control {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.bg-light {
+  background: #ffffff;
+  border: 1px solid #ddd;
+}
+
+input {
+  height: 55px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn1 {
+  height: 50px;
+  width: 180px;
+  border: none;
+  outline: none;
+  background: #ff3b3b;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  background: #d62828;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-lg-7,
+  .col-lg-4 {
+    min-width: 100%;
+  }
+
+  .contact h1 {
+    font-size: 2.2rem;
+  }
+
+  .btn1 {
+    width: 100%;
+  }
+}
